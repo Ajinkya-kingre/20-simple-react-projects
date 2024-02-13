@@ -25,12 +25,14 @@ export default function RandomColor() {
 
     setColor(`rgb(${r},${g},${b})`);
   };
-
+  
   useEffect(() => {
-    if (typeOfColor === "rgb")handleCreateRandomRgbColor();
-    else handleCreateRandomHexColor();
-    
-  }, [typeOfColor]);
+      
+      if (typeOfColor === "rgb")handleCreateRandomRgbColor();
+      else handleCreateRandomHexColor();
+      
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [typeOfColor]);
 
   return (
     <div
