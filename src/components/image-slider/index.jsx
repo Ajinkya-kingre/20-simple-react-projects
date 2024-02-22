@@ -75,8 +75,8 @@ export default function ImgSlider({ url, limit = 5, page = 1 }) {
                 key={index}
                 className={
                   currSlide === index
-                    ? "current-indicatior"
-                    : "currect-indicatior inactive-indicatior"
+                    ? "current-indicator"
+                    : "current-indicator inactive-indicatior"
                 }
                 onClick={() => setCurrSlide(index)}
               ></button>

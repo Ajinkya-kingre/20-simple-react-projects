@@ -4,6 +4,7 @@ import "./App.css";
 
 import StarRating from "./components/star-rating";
 import ImgSlider from "./components/image-slider";
+import LoadMoreData from "./components/load-more-data";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         page={"1"}
         limit={"10"}
       />
+      {/* Load More Data */}
+      <LoadMoreData/>
     </div>
   );
 }
