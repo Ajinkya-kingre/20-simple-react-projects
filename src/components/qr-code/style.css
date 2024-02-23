@@ -1,0 +1,9 @@
+.tt {
+  margin-bottom: 40px;
+}
+
+.qrcode {
+  background-color: rgb(218, 218, 218);
+  /* border: 2rem solid; */
+  padding: 2rem;
+}
