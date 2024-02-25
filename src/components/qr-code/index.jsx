@@ -10,7 +10,7 @@ export default function QRCodeGenerator() {
     setQrCode(input);
   }
   return (
-    <div>
+    <div className="dd">
       <div className="tt">
         <h1>QR code generator</h1>
         <input
