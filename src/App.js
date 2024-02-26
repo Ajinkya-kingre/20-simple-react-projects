@@ -10,6 +10,7 @@ import QRCodeGenerator from "./components/qr-code";
 import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indicator";
 import TabsTest from "./components/custom-tabs/tabs-test";
+import ModelTest from "./components/custom-model/model-test";
 
 function App() {
   return (
@@ -43,6 +44,9 @@ function App() {
 
       {/* Custom Tabs */}
       <TabsTest />
+
+      {/* Custom Model PopUP */}
+      <ModelTest />
     </div>
   );
 }
