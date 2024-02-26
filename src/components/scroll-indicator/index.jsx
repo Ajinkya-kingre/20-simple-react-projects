@@ -62,7 +62,7 @@ export default function ScrollIndicator({ url }) {
     return <div>Loading Data! Please Wait.</div>;
   }
   return (
-    <div>
+    <div className="tt">
       <div className="top-container">
         <h1>Custom Scroll Indicatior</h1>
         <div className="tracking">
