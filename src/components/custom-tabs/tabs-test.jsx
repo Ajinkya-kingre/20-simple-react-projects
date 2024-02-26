@@ -1,29 +1,29 @@
 import Tabs from "../custom-tabs/index";
-import '../custom-tabs/styles.css';
+import "./styles.css";
 
-function RandomComponent() {
-  return <h1>Some random content</h1>;
+function Tab3Content() {
+  return <div>Content for the Tab 3</div>;
 }
 
-export default function TabTest() {
-  const tabs = [
+export default function TabsTest() {
+  function handleChange(currTabIndex) {
+    console.log(currTabIndex);
+  }
+
+  const arr = [
     {
-      label: "Tab 1",
-      content: <div>This is content for Tab 1</div>,
+      label: "Tab1",
+      content: "Content for Tab 1",
     },
     {
-      label: "Tab 2",
-      content: <div>This is content for Tab 2</div>,
+      label: "Tab2",
+      content: "Content for Tab 2",
     },
     {
-      label: "Tab 3",
-      content: <RandomComponent />,
+      label: "Tab3",
+      content: <Tab3Content />,
     },
   ];
 
-  function handleChange(currentTabIndex) {
-    console.log(currentTabIndex);
-  }
-
-  return <Tabs tabsContent={tabs} onChange={handleChange} />;
+  return <Tabs tabsContent={arr} onChange={handleChange} />;
 }
