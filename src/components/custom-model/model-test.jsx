@@ -12,7 +12,7 @@ export default function ModelTest() {
     SetShowModelPopup(false);
   }
   return (
-    <div>
+    <div className="pp">
       <button onClick={handleTogglePopup}>Open Model Pop-up!</button>
       {showModelPopup && (
         <Model
