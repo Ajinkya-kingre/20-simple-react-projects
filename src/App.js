@@ -12,6 +12,7 @@ import ScrollIndicator from "./components/scroll-indicator";
 import TabsTest from "./components/custom-tabs/tabs-test";
 import ModelTest from "./components/custom-model/model-test";
 import GithubProfileFinder from "./components/github-profile-finder";
+import SearchAutocomplelte from "./components/search-autocomplete";
 
 function App() {
   return (
@@ -51,6 +52,9 @@ function App() {
 
       {/* Github Profile Finder */}
       <GithubProfileFinder />
+
+      {/* Search Autocomplete */}
+      <SearchAutocomplelte />
     </div>
   );
 }
