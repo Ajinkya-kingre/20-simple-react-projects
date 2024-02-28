@@ -14,6 +14,8 @@ import ModelTest from "./components/custom-model/model-test";
 import GithubProfileFinder from "./components/github-profile-finder";
 import SearchAutocomplelte from "./components/search-autocomplete";
 import TicTacToe from "./components/tic-tac-toe";
+import FeaturedFlagsGlobalState from "./components/featured-flags/context";
+import FeatureFlags from "./components/featured-flags";
 
 function App() {
   return (
@@ -59,6 +61,11 @@ function App() {
 
       {/* Tic Tac Toe */}
       <TicTacToe/>
+
+      {/* Featured Flags Implementation */}
+      <FeaturedFlagsGlobalState>
+        <FeatureFlags/>
+      </FeaturedFlagsGlobalState>
     </div>
   );
 }
