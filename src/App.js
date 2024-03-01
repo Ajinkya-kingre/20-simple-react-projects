@@ -19,69 +19,73 @@ import FeatureFlags from "./components/featured-flags";
 import UseFetchHookTest from "./components/use-fetch/test";
 import UseOutsideClick from "./components/use-outside-click/test";
 import UseWindowResize from "./components/use-window-resize/test";
+import ScrollToTopButton from "./components/scroll-top-bottom";
 
 function App() {
   return (
     <div className="App">
       {/* Accordian Component */}
-      <Accordian />
+      {/* <Accordian /> */}
 
       {/* Random-Color-Generator */}
-      <RandomColor />
+      {/* <RandomColor /> */}
 
       {/* Star-Rating */}
-      <StarRating noOfStars={10} />
+      {/* <StarRating noOfStars={10} /> */}
 
       {/* Image-Slider */}
-      <ImgSlider
+      {/* <ImgSlider
         url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"10"}
-      />
+      /> */}
 
       {/* Load More Data */}
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
 
       {/* Tree-View / Menu UI Component / Recursive Navigation Menu  */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
 
       {/* QR Code Generator */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
 
       {/* Light and Dark Mode */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
 
       {/* Scroll Indicator */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
       {/* Custom Tabs */}
-      <TabsTest />
+      {/* <TabsTest /> */}
 
       {/* Custom Model PopUP */}
-      <ModelTest />
+      {/* <ModelTest /> */}
 
       {/* Github Profile Finder */}
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
 
       {/* Search Autocomplete */}
-      <SearchAutocomplelte />
+      {/* <SearchAutocomplelte /> */}
 
       {/* Tic Tac Toe */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
 
       {/* Featured Flags Implementation */}
-      <FeaturedFlagsGlobalState>
+      {/* <FeaturedFlagsGlobalState>
         <FeatureFlags />
-      </FeaturedFlagsGlobalState>
+      </FeaturedFlagsGlobalState> */}
 
       {/* useFetch - custom Hook Test */}
-      <UseFetchHookTest />
+      {/* <UseFetchHookTest /> */}
 
       {/* Use Outside-Click Hook Test */}
-      <UseOutsideClick />
+      {/* <UseOutsideClick /> */}
 
       {/* use window resize hook test */}
-      <UseWindowResize />
+      {/* <UseWindowResize /> */}
+
+      {/* Scroll to Top and Bottom */}
+      <ScrollToTopButton/>
     </div>
   );
 }
