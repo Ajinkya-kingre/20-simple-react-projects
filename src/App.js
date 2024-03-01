@@ -20,6 +20,7 @@ import UseFetchHookTest from "./components/use-fetch/test";
 import UseOutsideClick from "./components/use-outside-click/test";
 import UseWindowResize from "./components/use-window-resize/test";
 import ScrollToTopButton from "./components/scroll-top-bottom";
+import ScrollToSection from "./components/scroll-top-bottom/scroll-to-section";
 
 function App() {
   return (
@@ -85,7 +86,10 @@ function App() {
       {/* <UseWindowResize /> */}
 
       {/* Scroll to Top and Bottom */}
-      <ScrollToTopButton/>
+      {/* <ScrollToTopButton/> */}
+
+      {/* Scroll to Section */}
+      <ScrollToSection />
     </div>
   );
 }
